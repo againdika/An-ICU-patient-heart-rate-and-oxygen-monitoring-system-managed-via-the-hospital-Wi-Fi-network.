@@ -101,7 +101,7 @@ const char* mqtt_server = "192.168.x.x";
 const int   mqtt_port   = 1883;
 const char* patient_id  = "ICU_BED_01";
 
-📊 System Architecture
+## 📊 System Architecture
 
 +--------------------------+       Wi-Fi (WPA2)       +--------------------------+
 |      ICU Patient Bed     | -----------------------> |  Hospital Local Server   |
@@ -110,9 +110,8 @@ const char* patient_id  = "ICU_BED_01";
 |  - Bedside OLED Display  |                          |  - Data Archive / EMR    |
 +--------------------------+                          +--------------------------+
 
-⚠️ Medical Disclaimer
+##⚠️ Medical Disclaimer
 
     Note: This project is developed for educational, academic, and experimental IoT research purposes. Before any real-world clinical deployment, biomedical equipment requires strict compliance, calibration, and safety certification under medical device regulations.
-
-    ✍️ Author
+## ✍️ Author
     Author: Aruna Indika
