@@ -100,6 +100,9 @@ const char* password = "HOSPITAL_WIFI_PASSWORD";
 const char* mqtt_server = "192.168.x.x";
 const int   mqtt_port   = 1883;
 const char* patient_id  = "ICU_BED_01";
+---
+## ✍️ Author
+    Author: Aruna Indika
 
 ## 📊 System Architecture
 
@@ -110,9 +113,6 @@ const char* patient_id  = "ICU_BED_01";
 |  - Bedside OLED Display  |                          |  - Data Archive / EMR    |
 +--------------------------+                          +--------------------------+
 
-## 💻 Software & Tech Stack
 ##⚠️ Medical Disclaimer
 
     Note: This project is developed for educational, academic, and experimental IoT research purposes. Before any real-world clinical deployment, biomedical equipment requires strict compliance, calibration, and safety certification under medical device regulations.
-## ✍️ Author
-    Author: Aruna Indika
