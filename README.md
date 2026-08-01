@@ -73,15 +73,6 @@ The acquired telemetry data is transmitted wirelessly over the internal hospital
 | **SCL** | GPIO 22 | Shared I2C SCL Line |
 
 ---
-## 📊 System Architecture
-
-+--------------------------+       Wi-Fi (WPA2)       +--------------------------+
-|      ICU Patient Bed     | -----------------------> |  Hospital Local Server   |
-|  - MAX30102 PPG Sensor   |   MQTT / HTTP JSON       |  - Centralized Dashboard |
-|  - ESP32 Microcontroller |                          |  - Nursing Station Alert |
-|  - Bedside OLED Display  |                          |  - Data Archive / EMR    |
-+--------------------------+                          +--------------------------+
-
 ##⚠️ Medical Disclaimer
 
     Note: This project is developed for educational, academic, and experimental IoT research purposes. Before any real-world clinical deployment, biomedical equipment requires strict compliance, calibration, and safety certification under medical device regulations.
@@ -115,3 +106,12 @@ const char* password = "HOSPITAL_WIFI_PASSWORD";
 const char* mqtt_server = "192.168.x.x";
 const int   mqtt_port   = 1883;
 const char* patient_id  = "ICU_BED_01";
+
+## 📊 System Architecture
+
++--------------------------+       Wi-Fi (WPA2)       +--------------------------+
+|      ICU Patient Bed     | -----------------------> |  Hospital Local Server   |
+|  - MAX30102 PPG Sensor   |   MQTT / HTTP JSON       |  - Centralized Dashboard |
+|  - ESP32 Microcontroller |                          |  - Nursing Station Alert |
+|  - Bedside OLED Display  |                          |  - Data Archive / EMR    |
++--------------------------+                          +--------------------------+
