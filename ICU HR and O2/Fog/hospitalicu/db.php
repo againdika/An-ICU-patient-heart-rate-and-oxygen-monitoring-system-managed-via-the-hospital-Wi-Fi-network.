@@ -1,8 +1,8 @@
 <?php
 $dbHost = '127.0.0.1';
 $dbName = 'hospital_icu';
-$dbUser = 'root';
-$dbPass = '';
+$dbUser = '<username>';
+$dbPass = '<password>';
 
 $pdo = new PDO(
     "mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4",
