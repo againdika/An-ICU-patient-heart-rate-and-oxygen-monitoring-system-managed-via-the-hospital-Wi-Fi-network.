@@ -24,12 +24,12 @@ use PhpMqtt\Client\ConnectionSettings;
 $mqttHost = '127.0.0.1';
 $mqttPort = 1883;             // local plain listener, same pattern as server room bridge
 $mqttUser = 'esp32user';
-$mqttPass = 'pass@pass123';
+$mqttPass = '<mqtt password from setup>';
 
 $dbHost = '127.0.0.1';
 $dbName = 'hospital_icu';
-$dbUser = 'root';
-$dbPass = '';
+$dbUser = '<username>';
+$dbPass = '<password>';
 // ─────────────────────────────────────────────────────────────────────
 
 echo "[DEBUG] Connecting to MySQL...\n"; flush();
