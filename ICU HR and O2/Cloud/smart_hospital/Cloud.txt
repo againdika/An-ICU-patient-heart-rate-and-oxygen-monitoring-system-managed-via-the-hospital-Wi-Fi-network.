@@ -1,0 +1,3 @@
+http://smart-hospital.eastus.cloudapp.azure.com/login
+
+using above URL you can access our could Interface
